@@ -2,7 +2,7 @@
     <button wire:click.prevent="create" type="button" class="btn btn-primary">
         <i class="fas fa-plus-circle"></i> Tambah
     </button>
-    <div class="dropdown d-inline">
+    {{-- <div class="dropdown d-inline">
         <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             <i class="fas fa-cog"></i> Lainnya
@@ -15,7 +15,7 @@
                 Download Format
             </a>
         </div>
-    </div>
+    </div> --}}
 
     <x-modals.import
         id="import-modal"
