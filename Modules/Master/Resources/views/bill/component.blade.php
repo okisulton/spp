@@ -2,7 +2,7 @@
     <button type="button" wire:click.prevent="create" class="btn btn-primary">
         <i class="fas fa-plus-circle"></i> Tambah
     </button>
-    <div class="dropdown d-inline mr-2">
+    {{-- <div class="dropdown d-inline mr-2">
         <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-cog"></i> Lainnya
@@ -11,7 +11,7 @@
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#import-modal">Import Tagihan</a>
             <a class="dropdown-item" href="#" wire:click.prevent="downloadFormat">Download Format</a>
         </div>
-    </div>
+    </div> --}}
 
     <x-modals.import class="import"
         id="import-modal"
