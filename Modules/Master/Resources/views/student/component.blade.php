@@ -9,10 +9,10 @@
                 <i class="fas fa-cog"></i> Lainnya
             </button>
             <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-start">
-                <a class="dropdown-item" data-toggle="modal" data-target="#import-modal" href="#">Import Siswa</a>
-                <a class="dropdown-item" href="{{ route('master.student.setting-status') }}">Kelola Status</a>
+                {{-- <a class="dropdown-item" data-toggle="modal" data-target="#import-modal" href="#">Import Siswa</a> --}}
+                {{-- <a class="dropdown-item" href="{{ route('master.student.setting-status') }}">Kelola Status</a> --}}
                 <a class="dropdown-item" href="{{ route('master.student.setting-room') }}">Kelola Kenaikan Kelas</a>
-                <a class="dropdown-item" href="#" wire:click.prevent="downloadFormat">Download Format</a>
+                {{-- <a class="dropdown-item" href="#" wire:click.prevent="downloadFormat">Download Format</a> --}}
             </div>
         </div>
     </div>
